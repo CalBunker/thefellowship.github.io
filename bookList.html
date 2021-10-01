@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <!--
+blue: #0099ff
+green: #009933
+
+image in nav bar:  <img src="images/bow2.png" alt="bow icon" height="30" width="20"> 
+-->
+    <meta charset="UTF-8">
+    <title> Books - Fellowship </title>
+    <style>
+        ul {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        .left {
+            float: left;
+        }
+        li {
+            float: right;
+        }
+        li a {
+            font-family: "Trebuchet MS", Sans-Serif;
+            display: block;
+            color: white;
+            padding: 14px 16px;
+            text-align: center;
+            text-decoration: none;
+        }
+        a p {
+            display: block;
+            color: white;
+        }
+        a p:hover {
+            background-color: #666633;
+        }
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        .active {
+            background-color: #666633;
+        }
+        li {
+            display: inline-block;
+        }
+        div {
+            margin-top: 80px;
+        }
+        .div2 {
+            margin-right: 20%;
+            margin-left: 20%;
+        }
+        .div3 {
+            margin-right: 10%;
+            margin-left: 10%;
+            margin-bottom: 50px;
+            width: 60%;
+        }
+        h1 {
+            text-align: center;
+            font-family: "Trebuchet MS", Sans-Serif;
+            color:#666633;
+        }
+        p {
+            font-family: "Trebuchet MS", Sans-Serif;
+            text-indent: 50px;
+            font-size: 19px;
+            line-height: 1.6;
+            text-decoration: none; !important
+        }
+        a {
+            text-decoration: none; !important
+        }
+        p.solid {
+            border-top-style: solid;
+            padding: 5px;
+        }
+    </style>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <ul>
+        <li class="left"> <a href="index.html"><em> <b> The Fellowship </b> </em> </a> </li>
+        <li> <a href="sourceCode.html"> Source Code </a> </li>
+        <li> <a href="bookList.html" class="active"> Book Reviews </a> </li>
+        <li> <a href="movieList.html"> Movie Reviews </a> </li>
+        <li> <a href="gameList.html"> Game Reviews </a> </li>
+        <li> <a href="index.html"> Home </a> </li>
+    </ul>
+    
+    <div>
+    <h1 style="font-size:60px"> Book Reviews </h1>
+    </div>
+    <hr style="width: 90%"> 
+    <br>
+    
+    <img src="images/theShiningBook.jpg" alt="The Shining, Book" style="width:204px; height:315px; float:left; margin-left: 10%">
+    <img src="images/slaughterHouseFive.jpg" alt="Slaughterhouse-Five, Book" style="width:204px; height:315px; float:right; margin-right: 10%">
+    <a href="articles/theShining.html"> <p  style="color:black; text-align:center; display:block;" class="div3 solid"> <i> The Shining </i> is a, heh, <i> shining </i> example of phenomenally written horror, a rarity in this day and age. Read our review! </p> </a>
+    <a href="articles/slaughterhouse.html"> <p  style="color:black; text-align:center; display:block;" class="div3 solid"> <i> Slaughterhouse-Five </i> is a beautifully written and utterly bizarre tale of the author's experiences after the Vietnam war, told through one massive metaphor - learn more in the full review. </p> </a>
+    <hr style="width: 90%">
+</body>
+</html>
+
+
