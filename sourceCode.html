@@ -13,40 +13,128 @@ image in nav bar:  <img src="images/bow2.png" alt="bow icon" height="30" width="
     <meta name="author" content="Calvin Bunker">
     <title> Source Code - Fellowship </title>
     <style>
-        ul {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-        .left {
-            float: left;
-        }
-        li {
-            float: right;
-        }
-        li a {
-            font-family: "Trebuchet MS", Sans-Serif;
-            display: block;
-            color: white;
-            padding: 14px 16px;
-            text-align: center;
-            text-decoration: none;
-        }
-        li a:hover:not(.active) {
-            background-color: #111;
-        }
-        .active {
-            background-color: #666633;
-        }
-        li {
-            display: inline-block;
-        }
+    ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    .left {
+        float: left;
+    }
+    li {
+        float: right;
+    }
+    li a {
+        font-family: "Trebuchet MS", Sans-Serif;
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+    }
+    a p {
+        display: block;
+        color: white;
+    }
+    a p:hover {
+        background-color: #666633;
+    }
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+    td a, th a {
+        font-family: "Trebuchet MS", Sans-Serif;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+    th a:hover {
+        color: #111;
+    }
+    td a:hover {
+        color: #666633;
+    }
+    .active {
+        background-color: #666633;
+    }
+    li {
+        display: inline-block;
+    }
+    div {
+        margin-left: 30%;
+        margin-right: 30%;
+
+    }
+    .div2 {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    .div3 {
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+        width: 60%;
+    }
+    h1 {
+        text-align: center;
+        font-family: "Trebuchet MS", Sans-Serif;
+        color:#666633;
+    }
+    h2 {
+        text-align: center;
+        font-family: "Trebuchet MS", Sans-Serif;
+        color:#666633;
+    }
+    h3 {
+        text-align: center;
+        font-family: "Trebuchet MS", Sans-Serif;
+        color:#333;
+    }
+    h5 {
+        text-align: center;
+    }
+    p {
+        font-family: "Trebuchet MS", Sans-Serif;
+        text-indent: 50px;
+        font-size: 20px;
+        line-height: 1.6;
+        text-decoration: none; !important
+    }
+    td, th {
+        font-family: "Trebuchet MS", Sans-Serif;
+        text-indent: 50px;
+        font-size: 20px;
+        line-height: 1.6;
+        text-align: left;
+        text-decoration: none; !important\
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    td a {
+        color: black;
+    }
+    th a {
+        color:#666633;
+    }
+    a {
+        text-decoration: none; !important
+    }
+    p.solid {
+        border-style: solid;
+        padding: 5px;
+    }
+    hr {
+        width: 90%;
+    }
+    table {
+        border-collapse: collapse;
+    }
     </style>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 </head>
@@ -60,5 +148,53 @@ image in nav bar:  <img src="images/bow2.png" alt="bow icon" height="30" width="
         <li> <a href="index.html"> Home </a> </li>
     </ul>
 
+    <div style="margin-top:80px">
+    <h1> Source Code </h1>
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2> Here's a table with links that show all of the code for each page on our site, except this one: </h2>
+    <br>
+
+    <div>
+    <table border="1px" style="width:100%;">
+      <tr>
+        <th colspan="2"> Source Code </th>
+      </tr>
+      <tr>
+        <th colspan="2"> <a href="code/homeCode.html">Home Page</a> </th>
+      <tr>
+      <tr>
+        <th rowspan="2"> <a href="code/gameCode.html">Games</a> </th>
+        <td> <a href="code/hadesCode.html">Hades</a> </td>
+      </tr>
+      <tr>
+        <td> <a href="code/marioCode.html">Super Mario</a> </td>
+      </tr>
+      <tr>
+        <th rowspan="2"> <a href="code/movieCode.html">Movies</a> </th>
+        <td> <a href="code/lucaCode.html">Luca</a> </td>
+      </tr>
+      <tr>
+        <td> <a href="code/djangoCode.html">Django Unchained</a> </td>
+      </tr>
+      <tr>
+        <th rowspan="2"> <a href="code/bookCode.html">Books</a> </th>
+        <td> <a href="code/theShiningCode.html">The Shining</a> </td>
+      </tr>
+      <tr>
+        <td> <a href="code/slaughterhouseCode.html">Slaughterhouse-Five</a> </td>
+      </tr>
+    </table>
+  </div>
+
+  <br>
+  <br>
+  <hr>
+  <br>
+  <br>
 </body>
 </html>
