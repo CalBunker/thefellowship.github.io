@@ -5,97 +5,168 @@
 blue: #0099ff
 green: #009933
 
-image in nav bar:  <img src="images/bow2.png" alt="bow icon" height="30" width="20"> 
+image in nav bar:  <img src="images/bow2.png" alt="bow icon" height="30" width="20">
 -->
     <meta charset="UTF-8">
+    <meta name="description" content="Review Website">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Calvin Bunker">
     <title> Slaughterhouse-Five - Fellowship </title>
     <style>
-        ul {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-        .left {
-            float: left;
-        }
-        li {
-            float: right;
-        }
-        li a {
-            font-family: "Trebuchet MS", Sans-Serif;
-            display: block;
-            color: white;
-            padding: 14px 16px;
-            text-align: center;
-            text-decoration: none;
-        }
-        a p {
-            display: block;
-            color: white;
-        }
-        a p:hover {
-            background-color: #666633;
-        }
-        li a:hover:not(.active) {
-            background-color: #111;
-        }
-        .active {
-            background-color: #666633;
-        }
-        li {
-            display: inline-block;
-        }
-        div {
-            margin-top: 80px;
-        }
-        .div2 {
-            margin-right: 20%;
-            margin-left: 20%;
-        }
-        .div3 {
-            margin-right: 10%;
-            margin-left: 10%;
-            margin-bottom: 50px;
-            width: 60%;
-        }
-        h1 {
-            text-align: center;
-            font-family: "Trebuchet MS", Sans-Serif;
-            color:#666633;
-        }
-        p {
-            font-family: "Trebuchet MS", Sans-Serif;
-            text-indent: 50px;
-            font-size: 20px;
-            line-height: 1.6;
-            text-decoration: none; !important
-        }
-        a {
-            text-decoration: none; !important
-        }
-        p.solid {
-            border-style: solid;
-            padding: 5px;
-        }
+    ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    .left {
+        float: left;
+        display: inline-block;
+    }
+    li.nav {
+        float: right;
+    }
+    li a {
+        font-family: "Trebuchet MS", Sans-Serif;
+        display: block;
+        color: white;
+        padding: 14px 16px;
+        text-align: center;
+        text-decoration: none;
+    }
+    a p {
+        display: block;
+        color: white;
+    }
+    a p:hover {
+        background-color: #666633;
+    }
+    li a:hover:not(.active) {
+        background-color: #111;
+    }
+    .active {
+        background-color: #666633;
+    }
+    li.nav {
+        display: inline-block;
+    }
+    .real {
+      font-family: "Trebuchet MS", Sans-Serif;
+      text-indent: 50px;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+    div {
+        margin-left: 20%;
+        margin-right: 20%;
+
+    }
+    .div2 {
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+    .div3 {
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-bottom: 50px;
+        width: 60%;
+    }
+    h1 {
+        text-align: center;
+        font-family: "Trebuchet MS", Sans-Serif;
+        color:#666633;
+    }
+    h2 {
+        text-align: center;
+        font-family: "Trebuchet MS", Sans-Serif;
+        color:#666633;
+    }
+    h3 {
+        text-align: center;
+        font-family: "Trebuchet MS", Sans-Serif;
+        color:#333;
+    }
+    hr {
+      width:90%;
+    }
+    p {
+        font-family: "Trebuchet MS", Sans-Serif;
+        text-indent: 50px;
+        font-size: 20px;
+        line-height: 1.6;
+        text-decoration: none; !important
+    }
+    a {
+        text-decoration: none; !important
+    }
+    p.solid {
+        border-style: solid;
+        padding: 5px;
+    }
     </style>
     <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <ul>
         <li class="left"> <a href="../index.html"><em> <b> The Fellowship </b> </em> </a> </li>
-        <li> <a href="../sourceCode.html"> Source Code </a> </li>
-        <li> <a href="../bookList.html" class="active"> Book Reviews </a> </li>
-        <li> <a href="../movieList.html"> Movie Reviews </a> </li>
-        <li> <a href="../gameList.html"> Game Reviews </a> </li>
-        <li> <a href="../index.html"> Home </a> </li>
+        <li class="nav"> <a href="../sourceCode.html"> Source Code </a> </li>
+        <li class="nav"> <a href="../bookList.html" class="active"> Book Reviews </a> </li>
+        <li class="nav"> <a href="../movieList.html"> Movie Reviews </a> </li>
+        <li class="nav"> <a href="../gameList.html"> Game Reviews </a> </li>
+        <li class="nav"> <a href="../index.html"> Home </a> </li>
     </ul>
+
+    <div style="margin-top: 80px;">
+    <h1> Slaughterhouse-Five </h1>
+    <h5 style="text-align:center;"> <em> Written by Calvin Bunker</em> </h5>
+    </div>
+
+    <hr>
+
+    <div>
+    <p> Today, ladies and gentlemen, we’re talking about Kurt Vonnegut, and his wonderful novel, <i> Slaughterhouse-Five. </i> This book is probably my favorite ever, and is absolutely beautifully written. Let me tell you why, but first, a quick plot summary: </p>
+    <p> <i> Slaughterhouse-Five </i> is a riveting semi-realistic fiction, semi-sci-fi novel, that starts out with the author introducing himself. Vonnegut explains how he fought in the military during WWII, and how he now wanted to write a book, or a memoir of sorts about it. He talks to an old friend and explains to the reader many details of his life, and then, the real story starts. </p>
+    <p> Vonnegut introduces Billy Pilgrim, the protagonist in this story. The book goes on to follow Billy Pilgrim, as he enters the U.S. military, gets “unstuck” in time, survives bombings, and meets aliens. </p> <br> <br>
+
+    <p> <b> <i> DISCLAIMER: If you have ANY intention of reading this book, I DO NOT outright spoil it in this review, but I would recommend reading the book BEFORE reading this review. </i> </b> </p> <br> <br>
+
+    <h2> Message </h2>
+    <p> Normally, I like to start reviews off with describing the plot, but this isn’t a normal book. To properly understand <i> Slaughterhouse-Five, </i> however, you have to understand the message first. The book is structured as Vonnegut telling the story of his own fictional character, but it’s actually more of a metaphor for his own life, and his own experiences. Billy Pilgrim goes through many things that Vonnegut himself actually went through, with a bunch of extra fantasy. So, I’d like to discuss the message of the book first. </p>
+    <p> Billy Pilgrim often talks about “The Children’s Crusade.” It’s this idea that all of those men that he fought around were just children. Just young people with no idea what they’re doing. He talks about himself especially with this, as he was very young when he joined the war. </p>
+    <p> The book also has this very odd, non-linear path of story-telling. It jumps back and forth in time constantly, telling random but important parts of Billy’s life. This and the “Children’s Crusade” both add to this mounting idea that the war destroys people’s life, and is fought by people who have no idea what they’re doing, and are blinded by the chaos around them. It’s distinctly anti-war, and reinforces that idea constantly, even though it never makes direct reasons why. </p>
+    <p> Anyway, the message of this book is phenomenal. It’s very hidden behind the actual book, but slowly while you read you realize what makes this book special. Vonnegut is a genius. </p>
+    <br> <br>
+
+    <h2> Plot </h2>
+    <p> The plot of <i> Slaughterhouse-Five </i> is extremely confusing and convoluted, but that is exactly why I like it. It plays off of it’s own absurdism, and doesn’t ever take itself too seriously. The main idea is that the main character, Billy Pilgrim, gets “unstuck in time,” which is described as him losing his “stick” in time, and he now experiences life as more of a random collage of events, where he experiences different moments in his life, and then he’ll suddenly be in a different moment. </p>
+    <p> There are four important sections of Billy Pilgrim’s life: <p> <br>
+    <ol class="real">
+      <li> His war experiences </li>
+      <li> His post-war, married life </li>
+      <li> When he's abducted by aliens </li>
+      <li> Post aliens </li>
+    </ol> <br>
+    <p> Each of these sections of his life are flipped between often, and are used well. Vonnegut makes interesting and smooth transitions between different time periods, and they’re all differentiated enough such that it never gets confusing. </p>
+    <p> Billy Pilgrim experiences these just as we do, where he’s one place, and then suddenly he’s in another. This is described in the book weirdly, but effectively - he’s “unstuck” in time. It’s further elaborated on, and described as if your timeline was more of a giant galaxy, with each planet being a different moment in time, and Billy just sorta jumps between them unwillingly and randomly. </p>
+    <p> All of this sounds incredibly confusing and hard to follow, but I can assure you that it’s not. Vonnegut does a phenomenal job at balancing all of it, and making it super easy to grasp. It feels smooth, and makes the entire plot a joy to read. </p>
+    <br> <br>
+
+    <h2> Characters </h2>
+    <p> <i> Slaughterhouse </i> is highly unique in that it really only has one character that means anything. That being the protagonist. There are other characters of course, but they aren’t any that add a particularly large amount to the story. Throughout, Billy seems sort of disconnected from everyone, and distant. This seems to stem from the “unstuck from time” bit, that makes it hard for him to connect to people. </p>
+    <p> Billy is an odd character. He has very little depth to him, but it actually aids the story more than it hurts it, as Billy is the perfect tool to tell a story like this. He has motivations, but they’re very clouded, and change depending on the time period he’s in. Besides that he’s very basic, and almost seems to live outside of himself, if that makes any sense. </p>
+    <br> <br>
+
+    <h2> Conclusion </h2>
+    <p> Either way, Slaughterhouse-Five is a masterpiece of a novel, and is more of the kind of thing you have to actually experience to understand properly. It’s a great pick for any fans of realistic fiction, especially that of the war or political type. It’s also a great pick for readers who enjoy having to deeply consider what they’re reading. </p>
+
+    <br>
+    <hr>
+    <br>
+    <br>
 </body>
 </html>
-
-
